@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage ("Probar si funciona Docker") {
+        stage ("holis") {
             steps {
-                sh "docker version"
+                echo "hellooo!"
             }
         }
     }
