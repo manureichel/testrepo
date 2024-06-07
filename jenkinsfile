@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+        stage ("Probar si funciona Docker") {
+            steps {
+                sh "docker version"
+            }
+        }
+    }
+}
