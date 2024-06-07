@@ -1,9 +1,9 @@
-pipeline {
+dopipeline {
     agent any
     stages {
         stage ("holis") {
             steps {
-                echo "hellooo!"
+                echo "hellooo editadooo!"
             }
         }
     }
