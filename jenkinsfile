@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ("holis") {
             steps {
-                echo "hellooo editadooo!"
+                echo "hellooo ed!"
             }
         }
     }
