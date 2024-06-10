@@ -11,7 +11,7 @@ pipeline {
             }
             post {
                 success {
-                    sendDiscordNotification("finalizado correctamente! :D")
+                    sendDiscordNotification("finalizado correctamente!")
                 }
                 failure {
                     sendDiscordNotification("finalizado con errores")
