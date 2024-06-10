@@ -7,14 +7,14 @@ pipeline {
     stages {
         stage('Send Notifications') {
             steps {
-                echo 'hello world!'
+                echho 'hello world!'
             }
             post {
                 success {
                     sendDiscordNotification("finalizado correctamente!")
                 }
                 failure {
-                    sendDiscordNotification("finalizado con errores")
+                    sendDiscordNotification("finalizado con errores! :(")
                 }
             }
         }
